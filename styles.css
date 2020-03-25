@@ -1,42 +1,36 @@
-#title {
-  background-color: #ff4c68;
-  color: White;
-}
-
-h1 {
+h1,h2,h3,h4,h5,h6 {
   font-family: "Montserrat";
-  font-size: 3.5rem;
   font-weight: 900;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: "Montserrat";
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: "Montserrat";
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-em {
-
 }
 
 p {
   color: #8f8f8f;
 }
 
-.container-fluid{
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
   padding: 3% 15% 7%;
 }
 
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
 /* Nav Bar */
@@ -63,6 +57,14 @@ body {
   margin: 5% 3% 5% 0;
 }
 
+/* Title SEction */
+
+#title {
+  background-color: #ff4c68;
+  color: White;
+  text-align: left;
+}
+
 .title-image {
   width: 45%;
   transform: rotate(25deg);
@@ -70,15 +72,20 @@ body {
   right: 30%;
 }
 
+/* Features */
+
 #features {
-  padding: 7% 15%;
   background-color: White;
   position: relative;
   z-index: 1;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .featureclass {
-  text-align: center;
   padding: 4.5%;
 }
 
@@ -95,9 +102,13 @@ body {
 /* Testimonials */
 
 #testimonials {
-  text-align: center;
   background-color: #ff4c68;
   color: White;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -106,14 +117,8 @@ body {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
-
 #press {
   background-color: #ff4c68;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -124,10 +129,14 @@ body {
 
 #pricing {
   padding:100px;
-  text-align: center;
 }
 
-.pricing-column{
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
   padding: 3% 2%;
 }
 
@@ -140,31 +149,31 @@ body {
     transform: rotate(0);
   }
   .calltoaction {
-    text-align: center;
   }
 }
 
 #cta {
-  padding: 7% 15%;
   background-color: #ff4c68;
-  text-align: center;
 }
 
 .calltoaction {
-  text-align: center;
-  margin-left: 25%;
+
 }
 
-.ctatext {
-  color: white;
-}
+/* Footer */
 
 #footer {
-  padding: 2% 3%;
   background-color: White;
-  text-align: center;
+}
+
+#title .container-fluid {
+  padding: 5% 15%;
 }
 
 .footerp {
   margin-top: 2%;
+}
+
+.iconfoot {
+  margin: 20px 10px;
 }
